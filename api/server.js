@@ -18,7 +18,5 @@ server.get("/", (req, res) => {
   res.status(200).json({ api: "up and running" });
 });
 
-server.get("/clients", (req, res) => {});
-// we changed the way we use this from get, on line 8 and 11
 module.exports = server;
 //this exports everything instead of default export in JS
